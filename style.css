@@ -1,0 +1,583 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid&family=Righteous&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background-image: linear-gradient(to bottom, #7900ca, #5dc9ff);
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-imagem{
+    height: 72px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 32px
+}
+
+.cabecalho-menu-item{
+    font-family: 'Londrina Solid', cursive;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.cabecalho-menu-item:hover{
+    color: rgb(242, 255, 0);
+    text-shadow: 1px 1px black;
+}
+
+.conteudo{
+    border-top: 0.4px solid rgb(44, 0, 47);
+    margin-bottom: 48px;
+}
+
+/* CONTEUDO 1º */
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo{
+    font-family: 'Londrina Solid', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: rgb(255, 255, 255);
+}
+
+.conteudo-principal-escrito-subtitulo{
+    font-family: 'Londrina Solid', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+}
+
+.conteudo-principal-escrito-botao:hover{
+    background-color: rgb(242, 255, 0);
+}
+
+.conteudo-principal-escrito-botao{
+    background-color: white;
+    width: 180px;
+    height: 50px;
+    border: none;
+    box-shadow: 5px 6px 5px;
+    border-radius: 30px;
+    font-family: 'Londrina Solid', cursive;
+    font-weight: 300;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+}
+
+.conteudo-principal-imagem{
+    height: 430px;
+}
+
+/* CONTEUDO 2º */
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.conteudo-secundario-titulo{
+    border-top: 0.4px solid white;
+    padding-top: 48px;
+    font-family: 'Londrina Solid', cursive;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 1.2;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+}
+
+.conteudo-secundario-paragrafo{
+    font-family: 'Londrina Solid', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.rodape{
+    padding: 32px;
+    border-top: 0.4px solid white;
+}
+
+.rodape-imagem{
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* CONTEUDO 3º */
+.conteudo-terciario{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 70px;
+    margin-top: 1  px white;
+       
+}
+
+.conteudo-terciario-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-top: 48px solid white;
+}
+
+.conteudo-terciario-escrito-titulo{
+    font-family: 'Londrina Solid', cursive;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 1.2;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+    
+}
+
+.conteudo-terciario-escrito-subtitulo{
+    font-family: 'Londrina Solid', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.conteudo-terciario-escrito-subtitulo1{
+    font-family: 'Londrina Solid', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.conteudo-terciario-imagem{
+    height: 220px;
+}
+
+/* CONTEUDO 4º */
+.conteudo-quarto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-quarto-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-quarto-escrito-subtitulo{
+    font-family: 'Londrina Solid', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    margin-right: 50px;
+}
+
+.conteudo-quarto-escrito-subtitulo1{
+    font-family: 'Londrina Solid', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    margin-right: 50px;
+}
+
+.conteudo-quarto-imagem{
+        height: 250px;
+}
+
+/*Curiosidades */
+
+.curiosidade{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-curiosidade{
+    border-top: 0.4px solid rgb(44, 0, 47);
+    margin-bottom: 48px;
+}
+
+.conteudo-curiosidade-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-curiosidade-escrito-titulo{
+    font-family: 'Londrina Solid', cursive;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 1.2;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+    
+}
+
+.conteudo-curiosidade-escrito-subtitulo2{
+    font-family: 'Londrina Solid', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.conteudo-curiosidade-escrito-subtitulo3{
+    font-family: 'Londrina Solid', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.conteudo-curiosidade-escrito-subtitulo4{
+    font-family: 'Londrina Solid', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.conteudo-curiosidade-escrito-subtitulo5{
+    font-family: 'Londrina Solid', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.conteudo-curiosidade-escrito-subtitulo6{
+    font-family: 'Londrina Solid', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.conteudo-curiosidade-escrito-subtitulo7{
+    font-family: 'Londrina Solid', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.conteudo-curiosidade-escrito-subtitulo8{
+    font-family: 'Londrina Solid', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.conteudo-curiosidade-escrito-subtitulo9{
+    font-family: 'Londrina Solid', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.conteudo-curiosidade-escrito-subtitulo10{
+    font-family: 'Londrina Solid', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-bottom: 50px;
+}
+
+.conteudo-curiosidade-imagem{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+/*Montagem*/
+.montagem{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-montagem{
+    border-top: 0.4px solid rgb(44, 0, 47);
+    margin-bottom: 48px;
+}
+
+.conteudo-montagem-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-montagem-escrito-titulo{
+    font-family: 'Londrina Solid', cursive;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 1.2;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+    
+}
+
+.conteudo-montagem-escrito-subtitulo{
+    font-family: 'Londrina Solid', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.conteudo-montagem-escrito-subtitulo1{
+    font-family: 'Londrina Solid', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+
+.conteudo-montagem-escrito-subtitulo2{
+    font-family: 'Londrina Solid', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.conteudo-montagem-escrito-subtitulo3{
+    font-family: 'Londrina Solid', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.conteudo-montagem-escrito-subtitulo4{
+    font-family: 'Londrina Solid', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.conteudo-montagem-escrito-subtitulo5{
+    font-family: 'Londrina Solid', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.conteudo-montagem-escrito-subtitulo6{
+    font-family: 'Londrina Solid', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.conteudo-montagem-escrito-subtitulo7{
+    font-family: 'Londrina Solid', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.conteudo-montagem-escrito-subtitulo8{
+    font-family: 'Londrina Solid', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.conteudo-montagem-escrito-subtitulo9{
+    font-family: 'Londrina Solid', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.conteudo-montagem-escrito-subtitulo10{
+    font-family: 'Londrina Solid', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-bottom: 50px;
+}
+
+.conteudo-montagem-imagem{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+/*Sobre nós*/
+
+.conteudo-sobre-imagem{
+    margin: auto;
+    display: block;
+    width: 500px;
+    margin-top: 30px;
+}
+
+.conteudo-sobre-escrito-subtitulo{
+    font-family: 'Londrina Solid', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 50px;
+}
+
+.conteudo-sobre-escrito-subtitulo1{
+    font-family: 'Londrina Solid', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+.conteudo-sobre-escrito-subtitulo2{
+    font-family: 'Londrina Solid', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+.conteudo-sobre-escrito-subtitulo3{
+    font-family: 'Londrina Solid', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+.conteudo-sobre-escrito-subtitulo4{
+    font-family: 'Londrina Solid', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+.conteudo-sobre-escrito-subtitulo5{
+    font-family: 'Londrina Solid', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+.conteudo-sobre-escrito-subtitulo6{
+    font-family: 'Londrina Solid', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+}
